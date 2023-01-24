@@ -1,0 +1,36 @@
+
+tr {
+    text-align: center;
+}
+
+col {
+    margin: 5px;
+    text-align: left;
+}
+
+#myself {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    width:5in;
+    transform: translate(-50%, -50%);
+}
+
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#info {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+
+#middle {
+    float:left;
+    width:50% 20px;
+    /* width:70%; */
+}
