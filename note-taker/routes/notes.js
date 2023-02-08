@@ -18,7 +18,7 @@ router.post('/', (req, res) => {
       text,
       id: uuidv4(),
     };
-    readAndAppend(newNote, './Develop/db/db.json');
+    readAndAppend(newNote, './db/db.json');
     const response = {
       status: 'success',
       body: newNote,
